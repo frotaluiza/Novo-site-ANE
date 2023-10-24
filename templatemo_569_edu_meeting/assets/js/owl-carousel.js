@@ -1458,8 +1458,8 @@
 		$(document).off('.owl.core');
 
 		if (this.settings.responsive !== false) {
-			window.clearTimeout(this.resizeTimer);
-			this.off(window, 'resize', this._handlers.onThrottledResize);
+			// window.clearTimeout(this.resizeTimer);
+			// this.off(window, 'resize', this._handlers.onThrottledResize);
 		}
 
 		for (var i in this._plugins) {
