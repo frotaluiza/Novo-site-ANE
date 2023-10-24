@@ -688,6 +688,8 @@ banner
   max-height: 100%;
   overflow: hidden;
   margin-bottom: -7px;
+  height: 50vh;
+
 }
 
 #bg-video {
@@ -705,12 +707,14 @@ banner
 
 .video-overlay {
     position: absolute;
-    background-color: rgba(31,39,43,0.75);
+    /* background-color: rgba(31,39,43,0.75); */
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     width: 100%;
+    background-image: url(../images/Pagina-inicial/OBRAS.jpg);
+
 }
 
 .main-banner .caption {
@@ -780,7 +784,7 @@ services
 }
 
 .services .item {
-  background-image: url(../images/service-item-bg.jpg);
+  /* background-image: url(../images/service-item-bg.jpg); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
