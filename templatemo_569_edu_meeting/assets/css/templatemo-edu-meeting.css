@@ -704,7 +704,9 @@ banner
 #bg-video::-webkit-media-controls {
     display: none !important;
 }
-
+.membros{
+  background-image: url(../images/MEMBROS.jpg);
+}
 .video-overlay {
     position: absolute;
     /* background-color: rgba(31,39,43,0.75); */
