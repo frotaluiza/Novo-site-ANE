@@ -5,12 +5,12 @@ const routes = {
         description: "Page not found",
     },
     "/": {
-        template: "/index.html",
+        template: "index.html",
         title: "Home",
         description: "This is the home page",
     },
     historia: {
-        template: "historia.html",
+        template: "src/institucional/historia.html",
         //title: "About Us",
        // description: "This is the about page",
     },
@@ -31,11 +31,14 @@ const locationHandler = async () => {
     // get the route object from the routes object
     const route = routes[location] || routes["404"];
     // get the html from the template
-    //const html = await fetch(route.template).then((response) => response.text());
+    const html = await fetch(route.template).then((response) => response.text());
     // set the content of the content div to the html
-    document.getElementById("kaka").onload(route.template);
+    document.getElementById("kaka").innerHTML = html;
     // set the title of the document to the title of the route
     document.title = route.title;
+
+    //window.location.href = html
+
     // set the description of the document to the description of the route
     document
         .querySelector('meta[name="description"]')
