@@ -9,15 +9,77 @@ const routes = {
         title: "Home",
         description: "This is the home page",
     },
-    historia: {
-        template: "src/institucional/historia.html",
-        //title: "About Us",
-       // description: "This is the about page",
-    },
     contact: {
         template: "/templates/contact.html",
         title: "Contact Us",
         description: "This is the contact page",
+    },
+    missao: {
+        template:"src/institucional/missao-e-valores.html",
+        title: "Missão e Valores"
+    },
+    //INSTITUCIONAL
+    institucional: {
+        template:"src/institucional/institucional.html",
+        title: "Institucional"
+    },
+    historia: {
+        template: "src/institucional/historia.html",
+        title: "História",
+       // description: "This is the about page",
+    },
+    estatuto: {
+        template: "src/institucional/estatuto.html",
+        title: "Estatuto",
+    },
+    regimentoInterno: {
+        template: "src/institucional/regimento-interno.html",
+        title: "Regimento Interno" 
+    },
+    diretoriaExecutiva: {
+        template: "src/institucional/diretoria-executiva.html",
+        title:" Diretoria Executiva",
+    },
+    conselhos: {
+        template:"src/institucional/conselhos.html",
+        title: "Conselhos"
+    },
+    comissoes: {
+        template:"src/institucional/comissoes.html",
+        title: "Comissões",
+    },
+    galeriaPresidentes: {
+        template:"src/institucional/galeria-de-presidentes.html",
+        title: "Galeria de Presidentes",
+    },
+    premiosHonrarias: {
+        template:"src/institucional/premios-e-honrarias.html",
+        title: "Premios e Honrarias",
+    },
+    quemSomos: {
+        template:"src/institucional/quem-somos.html",
+        title: "Quem Somos",
+    },
+    //MEMBROS
+    correspondentes: {
+        template:"src/membros/correspondentes.html",
+        title: "Correspondentes",
+    },
+    titulares: {
+        template:"src/membros/titulares.html",
+        title: "Titulares",
+    },
+    fundadores: {
+        template:"src/membros/fundadores.html",
+        title: "Fundadores",
+    },
+    titularesInMemorian: {
+        template:"src/membros/titulares-in-memorian",
+        title: "Titulares In Memorian",
+    },
+    fundadoresPioneiros: {
+        template:"src/membros/fundadores-pioneiros",
+        title: " Fundadores Pioneiros",
     },
 };
 
